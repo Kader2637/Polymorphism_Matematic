@@ -31,5 +31,8 @@ public class MatematikaBeraksi {
         mtk.modulus(23, 34);
         mtk.modulus(3.4, 4.9);
 
+        // uji method tambahan kalkulasi
+        System.out.println("\nHasil Operasi Gabungan : " + mtk.operasiGabungan(10, 5, 2) );
+        
     }
 }
