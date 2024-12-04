@@ -1,88 +1,90 @@
 public class Matematika {
 
+    int hasilInt;
+    double hasilDouble;
 
     //  overload pertambahan
     void pertambahan(double a, double b, double c) {
-        double hasil = a + b + c;
-        System.out.printf("Hasil pertambahan: %.1f%n", hasil);
+        hasilDouble = a + b + c;
+        System.out.printf("Hasil pertambahan: %.1f%n", hasilDouble);
     }
 
     void pertambahan(int a, int b, int c) {
-        int hasil = a + b + c;
-        System.out.println("Hasil pertambahan : " + hasil);
+        hasilInt = a + b + c;
+        System.out.println("Hasil pertambahan : " + hasilInt);
     }
 
     void pertambahan(int a, int b) {
-        int hasil = a + b;
-        System.out.println("Hasil pertambahan : " + hasil);
+        hasilInt = a + b;
+        System.out.println("Hasil pertambahan : " + hasilInt);
     }
 
     void pertambahan(double a, double b) {
-        double hasil = a + b;
-        System.out.printf("Hasil pertambahan: %.1f%n", hasil);
+        hasilDouble = a + b;
+        System.out.printf("Hasil pertambahan: %.1f%n", hasilDouble);
     }
 
     //  overload pengurangan
     void pengurangan(double a, double b, double c) {
-        double hasil = a - b - c;
-        System.out.println("Hasil pengurangan : " + hasil);
+        hasilDouble = a - b - c;
+        System.out.println("Hasil pengurangan : " + hasilDouble);
     }
 
     void pengurangan(int a, int b, int c) {
-        int hasil = a - b - c;
-        System.out.println("Hasil pengurangan : " + hasil);
+        hasilInt = a - b - c;
+        System.out.println("Hasil pengurangan : " + hasilInt);
     }
 
     void pengurangan(int a, int b) {
-        int hasil = a - b;
-        System.out.println("Hasil pengurangan : " + hasil);
+        hasilInt = a - b;
+        System.out.println("Hasil pengurangan : " + hasilInt);
     }
 
     void pengurangan(double a, double b) {
-        double hasil = a - b;
-        System.out.printf("Hasil pengurangan: %.1f%n", hasil);
+        hasilDouble = a - b;
+        System.out.printf("Hasil pengurangan: %.1f%n", hasilDouble);
     }
 
         //  overload perkalian
     void perkalian(double a, double b, double c) {
-        double hasil = a * b * c;
-        System.out.println("Hasil perkalian : " + hasil);
+        hasilDouble = a * b * c;
+        System.out.println("Hasil perkalian : " + hasilDouble);
     }
 
     void perkalian(int a, int b, int c) {
-        int hasil = a * b * c;
-        System.out.println("Hasil perkalian : " + hasil);
+        hasilInt = a * b * c;
+        System.out.println("Hasil perkalian : " + hasilInt);
     }
 
     void perkalian(int a, int b) {
-        int hasil = a * b;
-        System.out.println("Hasil perkalian : " + hasil);
+        hasilInt = a * b;
+        System.out.println("Hasil perkalian : " + hasilInt);
     }
 
     void perkalian(double a, double b) {
-        double hasil = a * b;
-        System.out.println("Hasil perkalian : " + hasil);
+        hasilDouble = a * b;
+        System.out.println("Hasil perkalian : " + hasilDouble);
     }
 
         //  overload pembagian
     void pembagian(double a, double b, double c) {
-        double hasil = a / b / c;
-        System.out.printf("Hasil pertambahan: %.11f%n", hasil);
+        hasilDouble = a / b / c;
+        System.out.printf("Hasil pertambahan: %.11f%n", hasilDouble);
     }
 
     void pembagian(int a, int b, int c) {
-        int hasil = a / b / c;
-        System.out.println("Hasil pembagian : " + hasil);
+        hasilInt = a / b / c;
+        System.out.println("Hasil pembagian : " + hasilInt);
     }
 
     void pembagian(int a, int b) {
-        int hasil = a / b;
-        System.out.println("Hasil pembagian : " + hasil);
+        hasilInt = a / b;
+        System.out.println("Hasil pembagian : " + hasilInt);
     }
 
     void pembagian(double a, double b) {
-        double hasil = a / b;
-        System.out.printf("Hasil pertambahan: %.11f%n", hasil);
+        hasilDouble = a / b;
+        System.out.printf("Hasil pertambahan: %.11f%n", hasilDouble);
     }
 
 }

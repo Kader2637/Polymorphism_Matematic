@@ -1,20 +1,20 @@
 public class MatematikaCanggih extends Matematika {
         //  overload modulus 
     void modulus(double a ,double b , double c){
-        double hasil = a % b % c;
-        System.out.println("Hasil Modulus: " + hasil);
+        hasilDouble = a % b % c;
+        System.out.println("Hasil Modulus: " + hasilDouble);
     }
     void modulus(int a ,int b , int c){
-        int hasil = a % b % c;
-        System.out.println("Hasil Modulus: " + hasil);
+        hasilInt = a % b % c;
+        System.out.println("Hasil Modulus: " + hasilInt);
     }
     void modulus(int a ,int b){
-        int hasil = a % b;
-        System.out.println("Hasil Modulus: " + hasil);
+        hasilInt = a % b;
+        System.out.println("Hasil Modulus: " + hasilInt);
     }
     void modulus(double a ,double b){
-        double hasil = a % b ;
-        System.out.println("Hasil Modulus: " + hasil);
+        hasilDouble = a % b ;
+        System.out.println("Hasil Modulus: " + hasilDouble);
     }
 
     // Method operasiGabungan
