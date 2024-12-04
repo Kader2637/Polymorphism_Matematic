@@ -8,6 +8,10 @@ Proyek ini adalah implementasi kelas matematika dalam Java yang mencakup berbaga
 - **Operasi Gabungan**: Menyediakan metode untuk melakukan operasi gabungan, seperti `operasiGabungan(int a, int b, int c)`, yang menghitung hasil dari penjumlahan `a` dengan hasil kali `b` dan `c`. Metode ini memungkinkan pengguna untuk melakukan kombinasi dari operasi dasar untuk hasil yang lebih kompleks.
 - **Overloading Metode**: Mendukung berbagai jumlah parameter dan tipe data untuk fleksibilitas lebih dalam operasi matematika.
 
-## Kontributor
+## Dibuat oleh
 
-Proyek ini dikembangkan oleh [Kader2637](https://github.com/kader2637).
+Proyek ini dibuat oleh [Kader2637](https://github.com/kader2637).
+
+## Hubungi Saya
+
+Jika Anda memiliki pertanyaan atau ingin berkontribusi, silakan hubungi saya melalui email: [abdulkader0126@gmail.com](mailto:abdulkader0126@gmail.com).
